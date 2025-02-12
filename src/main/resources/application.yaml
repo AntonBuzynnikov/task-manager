@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: task-manager
+  datasource:
+    url: jdbc:postgresql://localhost:5432/my-postgres
+    username: postgres
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: none
+
