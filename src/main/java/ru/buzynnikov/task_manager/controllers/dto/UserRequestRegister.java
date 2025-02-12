@@ -1,6 +1,6 @@
 package ru.buzynnikov.task_manager.controllers.dto;
 
-public class UserRequest {
+public class UserRequestRegister {
     private String name;
     private String email;
     private String password;
@@ -29,12 +29,12 @@ public class UserRequest {
         this.password = password;
     }
 
-    public UserRequest(String name, String email, String password) {
+    public UserRequestRegister(String name, String email, String password) {
         this.name = name;
         this.email = email;
         this.password = password;
     }
 
-    public UserRequest() {
+    public UserRequestRegister() {
     }
 }
